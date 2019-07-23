@@ -5,6 +5,10 @@ spring:
     config:
       server:
         git:
-          url: 
+          url: https://github.com/brainchen2020/SpringCloudConfig
+          searchPaths: respo
+          username:
+          password:
+      label: master
 server:
   port: 8888
